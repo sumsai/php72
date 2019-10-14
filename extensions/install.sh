@@ -5,7 +5,7 @@ export MC="-j$(nproc)"
 echo
 echo "============================================"
 echo "Install extensions from   : install.sh"
-echo "PHP version               : 7.2.19"
+echo "PHP version               : php:7.2.19-fpm-alpine"
 echo "Extra Extensions          : pdo_mysql,mysqli,mbstring,gd,curl,opcache,redis,swoole"
 echo "Multicore Compilation     : ${MC}"
 echo "Container package url     : mirrors.aliyun.com"
