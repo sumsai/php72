@@ -6,7 +6,7 @@ echo
 echo "============================================"
 echo "Install extensions from   : install.sh"
 echo "PHP version               : php:7.2.19-fpm-alpine"
-echo "Extra Extensions          : pdo_mysql,mysqli,mbstring,gd,curl,opcache,redis,swoole"
+echo "Extra Extensions          : pdo_mysql,mysqli,mbstring,gd,curl,opcache,redis,swoole,zip"
 echo "Multicore Compilation     : ${MC}"
 echo "Container package url     : mirrors.aliyun.com"
 echo "Work directory            : ${PWD}"
@@ -14,7 +14,7 @@ echo "============================================"
 echo
 
 
-export EXTENSIONS=",pdo_mysql,mysqli,mbstring,gd,curl,opcache,redis,swoole,"
+export EXTENSIONS=",pdo_mysql,mysqli,mbstring,gd,curl,opcache,redis,swoole,zip"
 
 
 #
