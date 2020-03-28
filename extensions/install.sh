@@ -452,9 +452,9 @@ if [[ -z "${EXTENSIONS##*,swoole,*}" ]]; then
     isPhpVersionGreaterOrEqual 7 0
 
     if [[ "$?" = "1" ]]; then
-        installExtensionFromTgz swoole-4.3.5
+        installExtensionFromTgz swoole-4.4.16
     else
-        installExtensionFromTgz swoole-4.3.5
+        installExtensionFromTgz swoole-4.4.16
     fi
 fi
 
